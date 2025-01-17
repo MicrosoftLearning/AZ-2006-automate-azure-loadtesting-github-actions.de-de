@@ -136,7 +136,7 @@ In dieser Aufgabe erstellen Sie ein Dienstprinzipal für die App und konfigurier
 
 1. Im Abschnitt **Details der Anmeldeinformationen** geben Sie Ihren Anmeldeinformationen einen Namen und wählen dann **Hinzufügen**.
 
-### Aufgabe 3: Zuweisen von Rollen an das Dienstprinzipal
+### Aufgabe 3: Zuweisen von Rollen an den Dienstprinzipal
 
 In dieser Aufgabe weisen Sie dem Dienstprinzipal die erforderlichen Rollen für den Zugriff auf Ihre Ressourcen zu.
 
@@ -182,15 +182,15 @@ In dieser Aufgabe fügen Sie Ihrem Repo Geheimnisse hinzu, um die Workflows zu a
 
     | Name | Geheimnis |
     |--|--|
-    | AZURE_CLIENT_ID | Geben Sie die **Anwendungs-(Client-)ID** ein, die Sie zuvor in der Übung gespeichert haben. |
-    | AZURE_TENANT_ID | Geben Sie die **Verzeichnis (Mandant) ID** ein, die Sie zuvor in der Übung gespeichert haben. |
-    | AZURE_SUBSCRIPTION_ID | Geben Sie den Wert der Abonnement-ID ein, den Sie zuvor in der Übung gespeichert haben. |
+    | `AZURE_CLIENT_ID` | Geben Sie die **Anwendungs-(Client-)ID** ein, die Sie zuvor in der Übung gespeichert haben. |
+    | `AZURE_TENANT_ID` | Geben Sie die **Verzeichnis (Mandant) ID** ein, die Sie zuvor in der Übung gespeichert haben. |
+    | `AZURE_SUBSCRIPTION_ID` | Geben Sie den Wert der Abonnement-ID ein, den Sie zuvor in der Übung gespeichert haben. |
 
 ### Aufgabe 2: Bereitstellen der Web App
 
 1. Wählen Sie die Datei *deploy.yml* im Ordner *.github/workflows*.
 
-1. Bearbeiten Sie die Datei und ändern Sie im Abschnitt **env:** den Wert der Variablen `AZURE_WEB_APP`. Ersetzen Sie `<your web app name>**` durch den Namen der zuvor in dieser Übung erstellten Web App. Committen Sie die Änderung.
+1. Bearbeiten Sie die Datei und ändern Sie im Abschnitt **env:** den Wert der Variablen `AZURE_WEB_APP`. Ersetzen Sie `<your web app name>` durch den Namen der zuvor in dieser Übung erstellten Web App. Committen Sie die Änderung.
 
 1. Nehmen Sie sich etwas Zeit, um den Inhalt des Workflows zu überprüfen.
 
