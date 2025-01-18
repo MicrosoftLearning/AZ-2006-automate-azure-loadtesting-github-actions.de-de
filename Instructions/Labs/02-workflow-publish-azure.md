@@ -6,7 +6,7 @@ lab:
 
 # Übersicht
 
-In dieser Übung lernen Sie, wie Sie einen GitHub-Aktions-Workflow implementieren, der eine Azure-Web-App bereitstellt.
+In diesem Lab lernen Sie, wie Sie einen GitHub-Aktions-Workflow implementieren, der eine Web-App für Azure App Service bereitstellt.
 
 In diesem Lab lernen Sie Folgendes:
 
@@ -126,7 +126,7 @@ In dieser Aufgabe ändern Sie den bereitgestellten *eshoponweb-cicd.yml* GitHub 
     | LOCATION: | `eastus` (Oder die Region, die Sie bei der Erstellung der Ressourcengruppe ausgewählt haben). |
     | TEMPLATE-DATEI: | Keine Änderungen |
     | ABONNEMENT-ID: | Ihre Abonnement-ID. |
-    | WEBAPP-NAME: | Der zufällig generierte wep App-Name, den Sie zuvor in der Übung erstellt haben. |
+    | WEBAPP-NAME: | Der zufällig generierte Web-App-Name, den Sie zuvor in der Übung erstellt haben. |
 
 1. Lesen Sie den Workflow aufmerksam durch, die Kommentare sind zum besseren Verständnis der einzelnen Schritte des Workflows bereitgestellt.
 1. Dekommentieren Sie den Abschnitt **on** am Anfang der Datei, indem Sie `#` löschen. Der Workflow triggert bei jedem Push auf den Hauptzweig und bietet auch eine manuelle Triggerung (`workflow_dispatch`).
