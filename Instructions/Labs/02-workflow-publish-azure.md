@@ -97,7 +97,7 @@ In dieser Aufgabe werden Sie eine Ressourcengruppe und ein Azure-Dienstprinzipal
     ```
     rgId=$(az group show -n az2006-rg --query "id" -o tsv)
 
-    az ad sp create-for-rbac --name GH-Action-eshoponweb --role contributor --scopes $rgId
+    az ad sp create-for-rbac --name GH-Action-eshoponweb --role contributor --scopes $rgId --json-auth true
     ```
 
     >**WICHTIG:** Dieser Befehl gibt ein JSON-Objekt aus, das die Identifikatoren enthält, die zur Authentifizierung gegen Azure im Namen einer Microsoft Entra-Identität (Dienstprinzipal) verwendet werden. Kopieren Sie das JSON-Objekt zur Verwendung in den folgenden Schritten. 
