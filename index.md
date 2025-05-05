@@ -1,26 +1,14 @@
 ---
-title: Online gehostete Anweisungen
+title: Automatisieren von Azure-Auslastungstests mit GitHub-Aktionen
 permalink: index.html
 layout: home
 ---
 
-# Inhaltsverzeichnis
+Die folgenden Übungen sollen Ihnen eine praktische Lernerfahrung bei der Implementierung von GitHub-Aktionen und -Workflows zur Automatisierung der Durchführung von Auslastungstests mit Azure Load Testing bereitstellen. 
 
-Der folgende Abschnitt enthält Hyperlinks zu jeder der Lab-Übungen.
+## Übungen
+<hr/>
 
-## Labs
 
-{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-| Modul | Lab |
-| --- | --- | 
-{% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} – {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
-
-<!-- ## Demos
-
-{% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| Module | Demo |
-| --- | --- | 
-{% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
- -->
+{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %} {% for activity in labs  %}
+* [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) <br/> {{ activity.lab.description }} {% endfor %}
