@@ -218,7 +218,7 @@ Wenn es Probleme mit dem erfolgreichen Abschluss des Workflows gibt, wählen Sie
 
     >**Hinweis:** Es kann 5-10 Minuten dauern, bis der Workflow abgeschlossen ist. Der Test läuft zwei Minuten lang, und es kann einige Minuten dauern, bis der Auslastungstest in die Warteschlange gestellt und in Azure gestartet wird. 
 
-Wenn es Probleme mit dem erfolgreichen Abschluss des Workflows gibt, wählen Sie den Workflow **Erstellen und Veröffentlichen** und wählen Sie dann **Erstellen** auf dem nächsten Bildschirm. Dies liefert detaillierte Informationen über den Workflow und kann helfen, das Problem zu diagnostizieren, das den erfolgreichen Abschluss des Workflows verhindert hat.
+Wenn es Probleme mit dem erfolgreichen Abschluss des Workflows gibt, wählen Sie den **Auslastungstest**-Workflow und wählen Sie dann **Erstellen** auf dem nächsten Bildschirm. Dies liefert detaillierte Informationen über den Workflow und kann helfen, das Problem zu diagnostizieren, das den erfolgreichen Abschluss des Workflows verhindert hat.
 
 #### Optional
 
